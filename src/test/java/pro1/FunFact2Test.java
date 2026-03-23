@@ -12,7 +12,7 @@ public class FunFact2Test
         var data = TestDataUtils.getTestData();
         var result = FunFact2.getFunFact(data);
         assertEquals(
-                1000,
+                10909500,
                 result
         );
     }

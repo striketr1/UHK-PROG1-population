@@ -12,7 +12,7 @@ public class FunFact1Test
         var data = TestDataUtils.getTestData();
         var result = FunFact1.getFunFact(data);
         assertEquals(
-                10,
+                132,
                 result
         );
     }

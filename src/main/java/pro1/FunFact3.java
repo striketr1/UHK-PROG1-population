@@ -9,6 +9,12 @@ public class FunFact3 {
      * @return TODO: Celkový počet obyvatel v obcích, které mají více než 10_000 obyvatel
      */
     public static int getFunFact(List<Muni> data) {
-        return 0;
+        var result = data
+                .stream()
+                .filter(o->o.getPopulation() > 10000)
+                .mapToInt(Muni::getPopulation)
+                .sum();
+
+        return result;
     }
 }

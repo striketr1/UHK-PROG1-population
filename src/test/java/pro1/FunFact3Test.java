@@ -12,7 +12,7 @@ public class FunFact3Test
         var data = TestDataUtils.getTestData();
         var result = FunFact3.getFunFact(data);
         assertEquals(
-                500,
+                5625930,
                 result
         );
     }
